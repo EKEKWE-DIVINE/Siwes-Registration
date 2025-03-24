@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.min.css">
+     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/fontawesome.min.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navBar = document.querySelector("nav");
+            const LogoImage = document.querySelector(".logo img");
+            const navLinks = document.querySelectorAll("#menu-bar a");
+
+            LogoImage.src = '2.png';
+
+            document.addEventListener('scroll', () => {
+                let navlinkColor;
+
+                if (window.scrollY > 0) {
+                    navBar.style.backgroundColor = 'white';
+                    navBar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
+                    LogoImage.width = 100;
+                    navlinkColor = 'rgba(50, 50, 50, 1)';
+                } else {
+                    navBar.style.backgroundColor = 'transparent';
+                    navBar.style.boxShadow = 'none';
+                    LogoImage.width = 90;
+                    navlinkColor = 'white';
+                }
+
+                navLinks.forEach(link => {
+                    link.style.color = navlinkColor;
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="nav-menu">
+            <div class="logo">
+                <img src="2.png" width="100px">
+            </div>
+            <div id="menu-bar">
+                <ul>
+                    <li><a href="/Siwes-Registration/Index.html">HOME</a></li>
+                    <li><a href="/Siwes-Registration/about.html">ABOUT US</a></li>
+                    <li><a href="/Siwes-Registration/Registration/index.html">REGISTRATION</a></li>
+                    
+                </ul>
+            </div>
+            <div class="dash_menu">
+                <span><i class="ri-align-justify"></i></span>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="banner">
+        <div class="banner-gradient">
+            <div class="banner-items">
+                <h1>About Us</h1>
+                <h2>Giving youths a brighter future</h2>
+            </div>
+        </div>
+    </div>
+    <div class="gen-objectives">
+        <div class="gen-objectives-header">
+            <h1>SIWES OBJECTIVES</h1>
+        <p>
+            The Scheme is designed to bridge the gap between employers’
+            <br>
+            expectations and actual performance of Nigerian graduates.
+        </p>
+    </div> 
+
+        <div class="obj1">
+            <p>
+            <h3>Skills Development</h3>
+            <img src="SKILLDEVELOPMENT1.jpg">
+            Provide an avenue for students in institutions of higher
+            learning to acquire industrial skills and experience in their course of study.
+            </p>
+        </div>
+
+        <div class="obj2">
+            <p>
+                <h3>Corporate Environment</h3>
+                <img src="CORPORATEENVIRONMENT1.jpg">
+                Prepare students for Industrial Work situation <br>
+                they are to meet after graduation.
+            </p>
+        </div>
+
+        <div class="obj3">
+            <p>
+                <h3>Practical Knowledge</h3>
+                <img src="PRACTICALKNOWLEDGE1.jpg">
+                Expose students to work methods and techniques in handling equipment <br>
+                 and machines that may not be available in their institutions.
+            </p>
+        </div>
+
+
+        <div class="obj4">
+            <p>
+                <h3>Networking</h3>
+                <img src="NETWORKING1.jpg">
+                Make transition from school to the world of work easier<br>
+                 and enhance students’ contacts for later job placement.
+            </p>
+        </div>
+
+    </div>
+    <div id="about-content">
+        <div id="section-1">
+            <h1 class="section-heading">What Do We Do</h1>
+            <div class="border-line"></div>
+            <div class="section-text">
+                <p>Students Industrial Work Experience Scheme (SIWES) is a Skills Training Program <br>
+                designed to prepare and expose Students of Universities, Polytechnics, Colleges of Technology,<br> 
+                Colleges of Agriculture and Colleges of Education for the Industrial Work situation<br>
+                they are likely to meet after graduation.</p>
+                </div>
+                </div>
+                </div>
+                
+                <div id="section2-heading"><h1>Who We Are</h1></div>
+                <div class="section-2">
+                    <div class="section2-text">
+                        <p>
+                            develop and enhance personal attributes such as critical thinking, creativity, initiative,
+                            <br> resourcefulness leadership, time management, presentation skills and interpersonal skills. 
+                            <br>enhance students contacts with potential employers while on training.
+                        </p>
+                       </div>
+                       <div id="section2-image">
+                        <img src="student-technician-in-it-siwes.jpg">
+                     </div>
+                     </div>
+    
+                    <div id="section-3">
+                    <h1 class="section3-heading">Our Founders</h1>
+                        <h2 class="description">Meet Our Team</h2>
+                        <div class="about-founders-container">
+                                    <div class="about-founders-box">
+                                    <div class="about-founders-shape">
+                                    <img src="images.jpeg" width="100%" height="100%" style="object-position: right;">
+                                </div>
+                            <div class="about-founders-text">
+                                <p class="about-founders-name">Ms Passion</p>
+                                <p class="about-founders-position">Head Of Registration</p>
+                            </div>
+                            </div>
+                                <div class="about-founders-box">
+                                <div class="about-founders-shape">
+                                <img src="images (2).jpeg" width="100%" height="100%" style="object-position: right;">
+                            </div>
+                        <div class="about-founders-text">
+                            <p class="about-founders-name">Mr Ekekwe</p>
+                            <p class="about-founders-position">Head Of Staff</p>
+                        </div>
+                        </div>
+                        <div class="about-founders-box">
+                            <div class="about-founders-shape">
+                            <img src="images (1).jpeg" width="100%" height="100%" style="object-position: right;">
+                        </div>
+                    <div class="about-founders-text">
+                        <p class="about-founders-name">Mr Christopher</p>
+                        <p class="about-founders-position">Head Of Programming Department</p> 
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="core-values">
+        <div class="vision">
+            <h3>Vision</h3>
+            <p>
+            To Be The Leading Skills Training <br>Organisation In Nigeria 
+            And <br>One Of The Best In The World.<br>
+            To Be The Leading Human Capital<br> Development Organisation In
+             Nigeria And<br> One Of The Best In The World.
+            </p>
+        </div>
+        <div class="mission">
+            <h3>Mission</h3>
+            <p>
+                To Set, Regulate Training Standards And Provide Need-Based <br>
+                Human Capital Development Interventions Using A Corps Of <br>
+                Highly Competent Professionals In Line With Global Best Practices.
+            </p>
+        </div>
+        <div class="values">
+            <h3>Values</h3>
+           <P>Commitment<br>
+            Loyalty<br>
+            Integrity<br>
+            Professionalism & Creativity<br>
+            Efficiency & Effectiveness<br>
+            Team Work</P>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div class="sub-footer">
+            <div class="contact">
+                <h3>CONTACT</h3>
+                <p><i class="fa-solid fa-phone"></i> +234 8145223456</p>
+                <p><i class="fa-solid fa-envelope"></i> chris@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Illeshan, ogun</p>
+            </div>
+            <div class="relate">
+                <br>
+                <h3 style="margin-right: 45px;">ABOUT</h3>
+                <a href="#">About us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">More info</a>
+            </div>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        <p class="copyright">© siwes.org 2025 <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>

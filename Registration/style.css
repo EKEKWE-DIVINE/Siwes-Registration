@@ -1,0 +1,595 @@
+.html{
+    background-image: url(/Siwes-Registration/Registration/istockphoto-1426988809-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: black !important; */
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+::placeholder{
+    color: black;
+}
+
+.navbar-container{
+    /* background-color: rgba(12, 12, 12, 0.767);  */
+    height: 65px;
+    display: flex; 
+    color: white; 
+    align-items: center;
+    position: sticky;
+}
+
+.logo{
+    color: white; 
+    font-weight: bolder; 
+    font-size: 28px; 
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+
+.side-navbar{
+    margin-left: 820px;
+}
+
+.Option-l{
+    display: flex; 
+    gap: 50px; 
+    list-style: none; 
+    align-items: center;
+}
+
+#T-Login{
+    height: 35px;
+    background-color: transparent; 
+    border-color: white;
+    color: white; 
+    cursor: pointer;
+}
+
+.subutton {
+  height: 35px; 
+  background-color: transparent; 
+  border-color: white;
+  color: white;  width: 25vw; 
+  cursor: pointer;
+}
+
+.login-container{
+    height: 34vw; 
+    background-color: rgba(255, 255, 255, 0.4); 
+    width: 29vw; 
+    justify-self: center;  
+    margin-top: 80px; 
+    border-radius: 30px; 
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px); 
+    align-content: center;
+}
+.Cancel-btn{
+    color: white;
+}
+
+.Cancel-btn:hover,
+.Cancel-btn:focus{
+    color: red;
+}
+.Login-text{
+    font-weight: bolder; 
+    text-align: center; 
+    font-size: 36px; 
+    margin: 0; 
+    margin-bottom: 20px;
+}
+
+.Username{
+    height: 50px;    
+    align-content: center;
+    text-align: center;
+}
+
+#Text{
+    width: 25vw; 
+    background: none; 
+    height: 30px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+
+.Email{
+    height: 50px; 
+    align-content: center; 
+    text-align: center; 
+    margin-top: 15px;
+}
+
+#Email{
+    width: 25vw; 
+    background: none; 
+    height: 30px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+
+.Password{
+    height: 50px; 
+    align-content: center; 
+    text-align: center; 
+    margin-top: 15px;
+}
+
+#Password{
+    width: 25vw; 
+    background: none; 
+    height: 30px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px; 
+}
+
+
+.Forgot-P{
+    justify-content: center; 
+    display: flex; 
+    gap: 120px; 
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.Remember{
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    height: 30px; 
+}
+
+#Remember{
+    color: white;
+}
+
+#Forgot-P{
+    align-self: center;
+}
+
+.Login-btn{
+    margin-top: 1vw; 
+    display: flex; 
+    justify-content: center;
+}
+
+#Login-btn{
+    height: 40px; 
+    width: 25vw; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: bolder; 
+    font-size: large; 
+    color: white; 
+    background-color: black;
+}
+
+.botton-ctnr{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 24px;
+}
+* {box-sizing: border-box}
+
+#Fname{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: none;  
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+#sText{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: none;  
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+
+#sText:focus, #Fname:focus {
+    background-color: #ddd;
+    outline: none;
+
+}
+  #semail, #psw, #pswr, #PhoneN {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: none;  
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+ #psw, #pswr, #PhoneN{
+    margin-left: 65px;
+ }
+
+ #Fname, #sText, #semail{
+    margin-left: 2vw;
+ } 
+
+#semail:focus,#psw:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.sbutton {
+  /* background-color: #04AA6D; */
+  background-color: black;
+  color: white;
+  /* padding: 14px 20px;
+  margin: 8px 0; */
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  /* padding: 14px 20px; */
+  background-color: #f44336;
+  text-align: center;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  padding: 16px; 
+  height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);  
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px); 
+    align-content: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 0.5;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+background-image: url(/Siwes-Registration/Registration/89991.jpg);}
+
+.modal-content {
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 70%;
+  border-radius: 5%;
+  justify-self: center;
+  align-self: center;
+  height: 70%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.clearfix{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+.signup{
+    border-radius: 5px;
+    background-color: #888;
+}
+
+.signup:hover{
+    background-color: rgba(34, 34, 34, 0.5);
+    color: #b6b6b6d7;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+ 
+
+@media screen and (max-width: 1400px) {
+
+  html{
+    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+    .side-navbar {
+        margin-left: 700px;
+    }
+
+    .login-container {
+        width: 35vw;
+        height: auto;
+        padding: 30px;
+    }
+
+    #Text, #Email, #Password {
+        width: 30vw;
+    }
+
+    #Login-btn {
+        width: 30vw;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+
+  html{
+    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+    .side-navbar {
+        margin-left: 500px;
+    }
+
+    .login-container {
+        width: 40vw;
+    }
+
+    #Text, #Email, #Password {
+        width: 35vw;
+    }
+
+    #Login-btn {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+  html{
+    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .side-navbar {
+        margin-left: 300px;
+    }
+
+    .login-container {
+        width: 50vw;
+        margin-top: 60px;
+    }
+
+    #Text, #Email, #Password {
+        width: 45vw;
+    }
+
+    #Login-btn {
+        width: 45vw;
+    }
+
+    .Forgot-P {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  html{
+    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+    .navbar-container {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .side-navbar {
+        margin-left: 0;
+    }
+
+    .Option-l {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .login-container {
+        width: 70vw;
+        margin-top: 40px;
+        padding: 25px;
+    }
+
+    #Text, #Email, #Password {
+        width: 60vw;
+    }
+
+    #Login-btn {
+        width: 60vw;
+    }
+
+    .Forgot-P {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  html{
+    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+    .navbar-container {
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .Option-l {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .login-container {
+        width: 85vw;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    #Text, #Email, #Password {
+        width: 75vw;
+    }
+
+    #Login-btn {
+        width: 75vw;
+    }
+
+    .Forgot-P {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .Login-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  html{
+    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+    .login-container {
+        width: 90vw;
+        padding: 15px;
+    }
+
+    #Text, #Email, #Password {
+        width: 80vw;
+    }
+
+    #Login-btn {
+        width: 80vw;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+
+    .clearfix {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+
+    .Login-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .login-container {
+        width: 95vw;
+        padding: 10px;
+    }
+
+    #Text, #Email, #Password {
+        width: 85vw;
+    }
+
+    #Login-btn {
+        width: 85vw;
+    }
+
+    .Login-text {
+        font-size: 22px;
+    }
+}

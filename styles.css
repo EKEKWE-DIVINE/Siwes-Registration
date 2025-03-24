@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c63ff;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 50px;
+    color: #ffffff;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #6c63ff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #5a52d5;
+    color: black;
+}
+
+/* Intro Section */
+#intro {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 20px;
+    background-color: #f8f8f8;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature i {
+    font-size: 48px;
+    color: #6c63ff;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Designed for Startups Section */
+#designed-for-startups, #designed-for-startups-2 {
+    display: flex;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+#designed-for-startups .content, #designed-for-startups-2 .content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+#designed-for-startups .image, #designed-for-startups-2 .image {
+    flex: 1;
+}
+
+#designed-for-startups img, #designed-for-startups-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#designed-for-startups h2, #designed-for-startups-2 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#designed-for-startups ul, #designed-for-startups-2 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#designed-for-startups ul li, #designed-for-startups-2 ul li {
+    margin-bottom: 10px;
+}
+
+#designed-for-startups ul li:before, #designed-for-startups-2 ul li:before {
+    content: "✓";
+    color: #6c63ff;
+    margin-right: 10px;
+}
+
+/* Testimonial Section */
+#testimonial {
+    background-color: #f8f8f8;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.testimonial-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.position {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    #features {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin-bottom: 50px;
+    }
+
+    #designed-for-startups, #designed-for-startups-2 {
+        flex-direction: column;
+    }
+
+    #designed-for-startups .content, #designed-for-startups-2 .content {
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+}

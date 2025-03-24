@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Image with LocalStorage</title>
+</head>
+<body>
+
+    <h2>Upload Your Profile Picture</h2>
+    <input type="file" id="imageInput" accept="image/*">
+    <br><br>
+    <img id="profileImage" src="" alt="Profile Image" width="150" height="150" style="border-radius: 50%; border: 2px solid black;">
+    <br><br>
+    <button onclick="clearImage()">Remove Image</button>
+
+    <script>
+        const imageInput = document.getElementById("imageInput");
+        const profileImage = document.getElementById("profileImage");
+
+        // Function to store image in LocalStorage
+        imageInput.addEventListener("change", function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function() {
+                    const base64String = reader.result;
+                    localStorage.setItem("profilePic", base64String);
+                    profileImage.src = base64String;
+                };
+
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Function to load image from LocalStorage when page loads
+        function loadProfileImage() {
+            const storedImage = localStorage.getItem("profilePic");
+            if (storedImage) {
+                profileImage.src = storedImage;
+            }
+        }
+
+        // Function to clear stored image
+        function clearImage() {
+            localStorage.removeItem("profilePic");
+            profileImage.src = "";
+        }
+
+        // Load the stored profile picture on page load
+        window.onload = loadProfileImage;
+    </script>
+
+</body>
+</html>
