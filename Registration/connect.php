@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
 
         if ($stmt->execute()) {
             
-            header("Location: /Siwes-Registration/Registration/Register.html");
+            header("Location: /siwes-registration/Registration/Register.html");
             exit();
         } else {
             echo "Error in inserting data: " . $stmt->error;

@@ -1,5 +1,5 @@
 .html{
-    background-image: url(/Siwes-Registration/Registration/istockphoto-1426988809-1024x1024.jpg);
+    background-image: url(/siwes-registration/Registration/istockphoto-1426988809-1024x1024.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -298,7 +298,7 @@ button:hover {
   width: 100%;
   height: 100%;
   justify-content: center;
-background-image: url(/Siwes-Registration/Registration/89991.jpg);}
+background-image: url(/siwes-registration/Registration/89991.jpg);}
 
 .modal-content {
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
@@ -356,7 +356,7 @@ hr {
 @media screen and (max-width: 1400px) {
 
   html{
-    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-image: url(/siwes-registration/image-about-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -383,7 +383,7 @@ hr {
 @media screen and (max-width: 1200px) {
 
   html{
-    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-image: url(/siwes-registration/image-about-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -407,7 +407,7 @@ hr {
 
 @media screen and (max-width: 992px) {
   html{
-    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-image: url(/siwes-registration/image-about-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -441,7 +441,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   html{
-    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-image: url(/siwes-registration/image-about-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -491,7 +491,7 @@ hr {
 
 @media screen and (max-width: 576px) {
   html{
-    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-image: url(/siwes-registration/image-about-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -537,7 +537,7 @@ hr {
 
 @media screen and (max-width: 480px) {
   html{
-    background-image: url(/Siwes-Registration/image-about-dark.jpg);
+    background-image: url(/siwes-registration/image-about-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;

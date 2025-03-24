@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->bind_param("ssssss", $firstname, $lastname, $phone, $email, $company, $message);
 
         if ($stmt->execute()) {
-            header("Location: /Siwes-Registration/index.html");
+            header("Location: /siwes-registration/index.html");
             exit();
         } else {
             echo json_encode(['status' => 'error', 'message' => 'Error in inserting data: ' . $stmt->error]);
